@@ -1,8 +1,8 @@
 ---
-title: "Version Catalog, Convention Plugin로 안드로이드 버전을 관리해보자!"
+title: "Version Catalog + Convention Plugin으로 build.gradle 버전을 관리해보자!"
 datePublished: Wed Sep 27 2023 12:41:11 GMT+0000 (Coordinated Universal Time)
 cuid: cln1qj73d000008jm6t5f7lnf
-slug: version-catalog-convention-plugin
+slug: version-catalog-convention-plugin-buildgradle
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695720599157/07ac1a1a-88a6-4789-bd7a-7ac5ec7edfa0.png
 tags: android, version-catalog, convention-plugin, build-gradle, multi-module
 
