@@ -39,7 +39,7 @@ gradle -&gt; libs.versions.toml 파일을 추가한다.
 
 ### 2\. 디펜던시 이전
 
-Kotlin DSL로 작성된 Gradle에 Version Catalog를 적용해보자. (Gradle를 Groovy를 사용하고 있다면 Kotlin DSL로 이동하는 방법은 [여기](https://kotlinworld.com/121)에서 확인할 수 있다.)
+Kotlin DSL로 작성된 Gradle에 Version Catalog를 적용해보자. (Gradle를 Groovy로 사용하고 있다면 Kotlin DSL로 이전하는 방법은 [여기](https://kotlinworld.com/121)에서 확인할 수 있다.)
 
 ```kotlin
 implementation("com.google.android.gms:play-services-auth:20.5.0")
