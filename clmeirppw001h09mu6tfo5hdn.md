@@ -3,7 +3,7 @@ title: "[Android] ViewModel Event 처리에 대한 개인적인 오해"
 datePublished: Fri Aug 26 2022 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmeirppw001h09mu6tfo5hdn
 slug: android-viewmodel-event
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696075325794/217565f0-a5cd-4118-a63a-41d1bd96f889.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696086292053/3a71f621-bbf0-439f-9183-e42f88b7f345.png
 tags: android
 
 ---
