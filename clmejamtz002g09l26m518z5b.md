@@ -3,6 +3,7 @@ title: "[Android] MVVM 패턴 박살내기"
 datePublished: Sat Aug 27 2022 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmejamtz002g09l26m518z5b
 slug: android-mvvm
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696246599456/ddaeb2dd-8d5d-4ebb-996f-937420dfab60.png
 tags: android
 
 ---
