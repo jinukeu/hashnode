@@ -3,6 +3,7 @@ title: "[Android] 4대 컴포넌트"
 datePublished: Mon Jan 09 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmer6w2w000109mm9lhqhb3m
 slug: android-4
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/xUUZcpQlqpM/upload/5814cb73f8aea88ba217ffab449866b9.jpeg
 tags: android
 
 ---
