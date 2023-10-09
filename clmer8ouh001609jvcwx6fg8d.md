@@ -3,6 +3,7 @@ title: "[Android] Fragment, Context, Intent"
 datePublished: Mon Jan 16 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmer8ouh001609jvcwx6fg8d
 slug: android-fragment-context-intent
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/L-2p8fapOA8/upload/c1c785a56fdd64f494d245bebdb1c3a5.jpeg
 tags: android
 
 ---
