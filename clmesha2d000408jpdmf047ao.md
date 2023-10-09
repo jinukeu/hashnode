@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 7장. 연산자 오버로딩과 기타 관례"
 datePublished: Wed Sep 06 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmesha2d000408jpdmf047ao
 slug: kotlin-in-action-7
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821337231/137fc3cb-2a48-48b8-b391-129834fb2215.jpeg
 tags: kotlin
 
 ---
