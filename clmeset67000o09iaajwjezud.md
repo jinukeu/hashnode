@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 5장. 람다로 프로그래밍"
 datePublished: Wed Aug 02 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmeset67000o09iaajwjezud
 slug: kotlin-in-action-5
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821298094/e59bb760-bc6d-4aac-88e2-60cb3008868c.jpeg
 tags: kotlin
 
 ---
