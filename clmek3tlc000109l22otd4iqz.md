@@ -3,6 +3,7 @@ title: "[Android] Service"
 datePublished: Sun Sep 11 2022 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmek3tlc000109l22otd4iqz
 slug: android-service
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/AXqMy8MSSdk/upload/20b446086f8d3d75b52a5916560116a5.jpeg
 tags: android
 
 ---
