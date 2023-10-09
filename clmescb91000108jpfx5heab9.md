@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 4장. 클래스, 객체, 인터페이스"
 datePublished: Wed Jul 19 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmescb91000108jpfx5heab9
 slug: kotlin-in-action-4
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821165976/22cb66d3-8a30-4042-9ab0-0eb96c58ad76.jpeg
 tags: kotlin
 
 ---
