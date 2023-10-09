@@ -3,6 +3,7 @@ title: "[Android] Multi Module"
 datePublished: Tue Jun 13 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmerhcrd001l09jveypxbf3c
 slug: android-multi-module
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/rEM3cK8F1pk/upload/4fec87203fcfdcbdb61e4e0ed619100d.jpeg
 tags: android
 
 ---
