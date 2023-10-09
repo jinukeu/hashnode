@@ -3,6 +3,7 @@ title: "[Android] Bundle, 직렬화, 역직렬화, ViewModel"
 datePublished: Thu Feb 02 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmerac54001808l22gkgaqd2
 slug: android-bundle-viewmodel
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/6GMq7AGxNbE/upload/5f7babe2d718d5be5b5f9664db15d166.jpeg
 tags: android
 
 ---
