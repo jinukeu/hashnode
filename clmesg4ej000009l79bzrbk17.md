@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 6장. 코틀린 타입 시스템"
 datePublished: Wed Aug 09 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmesg4ej000009l79bzrbk17
 slug: kotlin-in-action-6
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821317997/ac3895c0-6128-407b-83ad-8a0ac78105c2.jpeg
 tags: kotlin
 
 ---
