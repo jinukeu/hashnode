@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 2장. 코틀린 기초"
 datePublished: Wed Jul 05 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmesa750000t09l1ass46jn9
 slug: kotlin-in-action-2
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821017160/b14dffe1-c1c1-451d-a095-8e8463aeff42.jpeg
 tags: kotlin
 
 ---
