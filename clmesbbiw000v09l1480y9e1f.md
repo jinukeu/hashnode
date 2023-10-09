@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 3장. 함수 정의와 호출"
 datePublished: Tue Jul 11 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmesbbiw000v09l1480y9e1f
 slug: kotlin-in-action-3
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821124752/a5566163-68a1-480f-b785-99723dd53971.jpeg
 tags: kotlin
 
 ---
