@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 1장. 코틀린이란 무엇이며, 왜 필요한가?
 datePublished: Tue Jul 04 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmes4s9y000p09l1a229cv9u
 slug: kotlin-in-action-1
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696820820669/d9aae41e-ecd0-4f93-855f-dcad5adf9739.jpeg
 tags: kotlin
 
 ---
