@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 9장. 제네릭스"
 datePublished: Tue Oct 03 2023 09:25:22 GMT+0000 (Coordinated Universal Time)
 cuid: clna46hpr00070akx1mlz185q
 slug: kotlin-in-action-9
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821090745/ce12d54c-2644-4094-8768-6b97aac57008.jpeg
 tags: kotlin
 
 ---
