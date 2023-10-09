@@ -3,6 +3,7 @@ title: "[cs] 동시성, 병렬성, 스레드, 코루틴"
 datePublished: Sun Apr 16 2023 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmerfrtk001509kw3ynh6jym
 slug: cs
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821384439/b203bc93-2f71-4af3-ae8b-701e2120b2ec.png
 tags: cs
 
 ---
