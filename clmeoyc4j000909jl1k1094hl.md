@@ -3,6 +3,7 @@ title: "[Android] Intents and Intent Filters"
 datePublished: Mon Sep 26 2022 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmeoyc4j000909jl1k1094hl
 slug: android-intents-and-intent-filters
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/vrbZVyX2k4I/upload/864bacce8cf4139d1d4cca4cf6f7d1a1.jpeg
 tags: android
 
 ---
