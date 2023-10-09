@@ -3,6 +3,7 @@ title: "[Kotlin in Action] 8장. 고차 함수: 파라미터와 반환 값으로
 datePublished: Tue Sep 19 2023 07:35:05 GMT+0000 (Coordinated Universal Time)
 cuid: clmq02qp2000309le4kmr1c8w
 slug: kotlin-in-action-8
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696821352743/8dc113ee-9889-4817-80b0-064edf95f1b3.jpeg
 tags: kotlin
 
 ---
