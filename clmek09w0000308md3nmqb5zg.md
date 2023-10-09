@@ -3,6 +3,7 @@ title: "[Android] Activity"
 datePublished: Thu Sep 01 2022 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmek09w0000308md3nmqb5zg
 slug: android-activity
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/W9f-PrkRqk0/upload/0b1f079fcb9d560f2fdabe0a4618f329.jpeg
 tags: android
 
 ---
