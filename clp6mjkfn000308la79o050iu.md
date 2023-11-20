@@ -38,7 +38,7 @@ Cold, Warm Start(+ Hot)과 새로운 Splash Screen 대응 방안에 대해 소�
 
 ### 적용 방법
 
-1. build.gradle
+1. build.gradle 디펜던시 추가
     
 
 ```kotlin
@@ -82,48 +82,49 @@ parent가 `Theme.SplashScreen` 인 theme를 추가한다. `postSplashScreenTheme
 
 1. Activity에서 `setContentView` 이전에 `installSplashScreen` 을 호출한다.
     
-    ```kotlin
-    class SplashScreenSampleActivity : Activity() {
+
+```kotlin
+class SplashScreenSampleActivity : Activity() {
+
+   override fun onCreate(savedInstanceState: Bundle?) {
+       super.onCreate(savedInstanceState)
+
+       // Handle the splash screen transition.
+       val splashScreen = installSplashScreen()
+
+       setContentView(R.layout.main_activity)
+...
+```
+
+1. 특정 작업이 끝난 이후까지 스플래시 스크린을 보여주게 하고 싶다면 다음과 같이 설정한다.
     
-       override fun onCreate(savedInstanceState: Bundle?) {
-           super.onCreate(savedInstanceState)
-    
-           // Handle the splash screen transition.
-           val splashScreen = installSplashScreen()
-    
-           setContentView(R.layout.main_activity)
-    ...
-    ```
-    
-2. 특정 작업이 끝난 이후까지 스플래시 스크린을 보여주게 하고 싶다면 다음과 같이 설정한다.
-    
-    ```kotlin
-    // Create a new event for the activity.
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        // Set the layout for the content view.
-        setContentView(R.layout.main_activity)
-    
-        // Set up an OnPreDrawListener to the root view.
-        val content: View = findViewById(android.R.id.content)
-        content.viewTreeObserver.addOnPreDrawListener(
-            object : ViewTreeObserver.OnPreDrawListener {
-                override fun onPreDraw(): Boolean {
-                    // Check if the initial data is ready.
-                    return if (viewModel.isReady) {
-                        // The content is ready; start drawing.
-                        content.viewTreeObserver.removeOnPreDrawListener(this)
-                        true
-                    } else {
-                        // The content is not ready; suspend.
-                        false
-                    }
+
+```kotlin
+// Create a new event for the activity.
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    // Set the layout for the content view.
+    setContentView(R.layout.main_activity)
+
+    // Set up an OnPreDrawListener to the root view.
+    val content: View = findViewById(android.R.id.content)
+    content.viewTreeObserver.addOnPreDrawListener(
+        object : ViewTreeObserver.OnPreDrawListener {
+            override fun onPreDraw(): Boolean {
+                // Check if the initial data is ready.
+                return if (viewModel.isReady) {
+                    // The content is ready; start drawing.
+                    content.viewTreeObserver.removeOnPreDrawListener(this)
+                    true
+                } else {
+                    // The content is not ready; suspend.
+                    false
                 }
             }
-        )
-    }
-    ```
-    
+        }
+    )
+}
+```
 
 이제 안드로이드 12 이하에서도 새로운 스플래시 화면이 일관된 디자인으로 적용된다.
 
