@@ -38,8 +38,7 @@ Cold, Warm Start(+ Hot)과 새로운 Splash Screen 대응 방안에 대해 소�
 
 ### 적용 방법
 
-1. build.gradle 디펜던시 추가
-    
+1.build.gradle 디펜던시 추가
 
 ```kotlin
 dependencies {
@@ -48,8 +47,7 @@ dependencies {
 }
 ```
 
-1. SplashScreen에 적용할 theme 추가
-    
+2.SplashScreen에 적용할 theme 추가
 
 parent가 `Theme.SplashScreen` 인 theme를 추가한다. `postSplashScreenTheme` 에는 SplashScreen이 보여진 이후에 적용할 theme를 적는다.
 
@@ -69,8 +67,7 @@ parent가 `Theme.SplashScreen` 인 theme를 추가한다. `postSplashScreenTheme
 </style>
 ```
 
-1. 매니페스트에서 activity또는 application의 theme를 이전 단계에서 만든 테마로 바꾼다.
-    
+3.매니페스트에서 activity또는 application의 theme를 이전 단계에서 만든 테마로 바꾼다.
 
 ```kotlin
 <manifest>
@@ -80,8 +77,7 @@ parent가 `Theme.SplashScreen` 인 theme를 추가한다. `postSplashScreenTheme
 ...
 ```
 
-1. Activity에서 `setContentView` 이전에 `installSplashScreen` 을 호출한다.
-    
+4.Activity에서 `setContentView` 이전에 `installSplashScreen` 을 호출한다.
 
 ```kotlin
 class SplashScreenSampleActivity : Activity() {
@@ -96,8 +92,7 @@ class SplashScreenSampleActivity : Activity() {
 ...
 ```
 
-1. 특정 작업이 끝난 이후까지 스플래시 스크린을 보여주게 하고 싶다면 다음과 같이 설정한다.
-    
+5.특정 작업이 끝난 이후까지 스플래시 스크린을 보여주게 하고 싶다면 다음과 같이 설정한다.
 
 ```kotlin
 // Create a new event for the activity.
