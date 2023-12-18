@@ -186,9 +186,8 @@ fun SplashScreen(onTimeout: () -> Unit, modifier: Modifier = Modifier) {
 
 > Composable functions can use the remember API to store an object in memory. A value computed by remember is stored in the Composition during initial composition, and the stored value is returned during recomposition. remember can be used to store both mutable and immutable objects. - [공식 문서](https://developer.android.com/jetpack/compose/state?hl=ko#state-in-composables)
 
-그러니까 초기 컴포지션에서 { showLandingScreen = true } 값은 계산되지만 recomposition때 들어온 { showLandingScreen = false } 값은 remember에 저장되지 않기 때문이다.
+그러니까 초기 컴포지션에서 { /\* empty \*/ } 값은 계산되지만 recomposition때 들어온 { showLandingScreen = false } 값은 remember에 저장되지 않기 때문이다.
 
-  
 이를 해결하려면 `rememberUpdatedState`를 사용해야한다. 코드는 아래와 같다.
 
 ```kotlin
